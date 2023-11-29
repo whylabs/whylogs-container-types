@@ -32,3 +32,6 @@ reportMissingTypeStubs = false
 reportMissingParameterType = false
 reportMissingTypeArgumet = false
 
+
+[project.urls]
+Homepage = "https://github.com/whylabs/whylogs-container-types"

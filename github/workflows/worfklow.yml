@@ -46,7 +46,3 @@ jobs:
       - name: Build
         run: make all
 
-      - name: Publish package distributions to PyPI
-        if: ${{ github.event_name == 'push' }}
-        uses: pypa/gh-action-pypi-publish@release/v1
-
