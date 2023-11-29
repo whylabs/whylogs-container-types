@@ -1,5 +1,5 @@
 
-project_name := container_types
+project_name := whylogs_container_types
 src := $(shell find $(project_name)/ -name "*.py" -type f)
 
 .PHONY: all
