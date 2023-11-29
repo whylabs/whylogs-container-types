@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "whylogs-container-types"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["Anthony Naddeo <anthony@whylabs.ai>"]
 license = "MIT"
@@ -9,7 +9,7 @@ packages = [{ include = "container_types/**/*.py" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-whylogs = "^1.3.16"
+whylogs = "*"
 
 
 [tool.poetry.group.dev.dependencies]
