@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "whylogs-container-types"
-version = "0.4.4"
+version = "0.4.5"
 description = ""
 authors = ["Anthony Naddeo <anthony@whylabs.ai>"]
 license = "MIT"
@@ -10,7 +10,7 @@ packages = [{ include = "whylogs_container_types/**/*.py" }]
 [tool.poetry.dependencies]
 python = "^3.8"
 whylogs = "*"
-langkit = {url = "https://whypy.s3.us-west-2.amazonaws.com/langkit-0.0.31-py3-none-any.whl"}
+langkit = {url = "https://whypy.s3.us-west-2.amazonaws.com/langkit-0.0.32-py3-none-any.whl"}
 
 
 [tool.poetry.group.dev.dependencies]
