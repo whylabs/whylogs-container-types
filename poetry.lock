@@ -191,12 +191,12 @@ i18n = ["Babel (>=2.7)"]
 
 [[package]]
 name = "langkit"
-version = "0.0.33"
+version = "0.0.34"
 description = "A language toolkit for monitoring LLM interactions"
 optional = false
 python-versions = ">=3.8,<4"
 files = [
-    {file = "langkit-0.0.33-py3-none-any.whl", hash = "sha256:7280589e688d018af32dbb20c8d858422455bf62f6f2136a20ca5051e78543ac"},
+    {file = "langkit-0.0.34-py3-none-any.whl", hash = "sha256:2b618b5e1798fb338501316deb77f721e925d2d544887f5a0b51c2c975d440bd"},
 ]
 
 [package.dependencies]
@@ -210,7 +210,7 @@ all = ["datasets (>=2.12.0,<3.0.0)", "evaluate (>=0.4.0,<0.5.0)", "faiss-cpu (>=
 
 [package.source]
 type = "url"
-url = "https://whypy.s3.us-west-2.amazonaws.com/langkit-0.0.33-py3-none-any.whl"
+url = "https://whypy.s3.us-west-2.amazonaws.com/langkit-0.0.34-py3-none-any.whl"
 
 [[package]]
 name = "markupsafe"
@@ -1015,4 +1015,4 @@ torch = "2.1.2"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "d3b3d1493ed1f8dfc16795a8153d75ee9ad8fc4747a150cc6f1dc372c2d1981b"
+content-hash = "93ef1ebc62a6fb511a32ffce49964925db955e4dd552decbb1f1590ab2b4e9d7"
