@@ -5,6 +5,9 @@ src := $(shell find $(project_name)/ -name "*.py" -type f)
 
 dist: build
 
+install: ## Install dependencies
+	poetry install --extras llm
+
 clean: ## Clean up build artifacts
 	rm -rf dist
 
@@ -13,9 +16,6 @@ build: $(src)
 
 publish: build
 	poetry publish
-
-lint: ## Check for type issues with pyright
-	poetry run pyright
 
 test: ## Run unit tests
 	poetry run pytest
