@@ -4,7 +4,7 @@ from typing import Callable, Dict, List, Optional
 
 from langkit.core.metric import MetricCreator
 from langkit.core.validation import Validator
-from langkit.core.workflow import Hook
+from langkit.core.workflow import Callback
 from whylogs.core.schema import DatasetSchema
 
 
@@ -35,7 +35,7 @@ class DatasetOptions:
 @dataclass(frozen=True)
 class LangkitOptions:
     metrics: List[MetricCreator] = field(default_factory=list)
-    hooks: List[Hook] = field(default_factory=list)
+    callbacks: List[Callback] = field(default_factory=list)
     validators: List[Validator] = field(default_factory=list)
 
 
