@@ -10,7 +10,7 @@ packages = [{ include = "whylogs_container_types/**/*.py" }]
 [tool.poetry.dependencies]
 python = "^3.8"
 whylogs = "*"
-langkit = {url = "https://whypy.s3.us-west-2.amazonaws.com/langkit-0.0.47-py3-none-any.whl", extras = ["all"], optional = true}
+langkit = {url = "https://whypy.s3.us-west-2.amazonaws.com/langkit-0.0.95-py3-none-any.whl", extras = ["all"], optional = true}
 
 
 [tool.poetry.group.dev.dependencies]
