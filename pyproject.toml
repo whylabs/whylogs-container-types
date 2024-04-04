@@ -10,7 +10,7 @@ packages = [{ include = "whylogs_container_types/**/*.py" }]
 [tool.poetry.dependencies]
 python = "^3.8"
 whylogs = "*"
-langkit = {version= "0.0.28.dev0", extras = ["all"], optional = true}
+langkit = "0.0.28.dev0"
 
 
 [tool.poetry.group.dev.dependencies]
