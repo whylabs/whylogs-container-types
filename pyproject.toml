@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "whylogs-container-types"
-version = "0.4.14"
+version = "0.4.15"
 description = ""
 authors = ["Anthony Naddeo <anthony@whylabs.ai>"]
 license = "MIT"
@@ -16,9 +16,6 @@ langkit = "0.0.28.dev0"
 [tool.poetry.group.dev.dependencies]
 pyright = "^1.1.337"
 ruff = "^0.1.13"
-
-[tool.poetry.extras]
-llm = ["langkit"]
 
 [build-system]
 requires = ["poetry-core"]
