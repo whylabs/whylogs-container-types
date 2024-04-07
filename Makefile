@@ -6,7 +6,7 @@ src := $(shell find $(project_name)/ -name "*.py" -type f)
 dist: build
 
 install: ## Install dependencies
-	poetry install --extras llm
+	poetry install
 
 clean: ## Clean up build artifacts
 	rm -rf dist
